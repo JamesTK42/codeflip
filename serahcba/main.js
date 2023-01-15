@@ -1,5 +1,5 @@
-import { coding } from '/serahcba/array.js'
-
+// import { coding } from '/serahcba/array.js'
+import coding from './array.json' assert { type: 'json' };
 
 window.onload = printCode;
 
@@ -30,11 +30,11 @@ randomPick(coding)
 
 var item = randomPick(coding)
 
-// console.log(item.id);
-// console.log(item);
-// console.log(item.Code);
-// console.log(item.Description);
-// console.log(item.Title);
+console.log(item.id);
+console.log(item);
+console.log(item.Code);
+console.log(item.Description);
+console.log(item.Title);
 
 
 
