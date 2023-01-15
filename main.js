@@ -1,8 +1,7 @@
 // import { coding } from '/serahcba/array.js'
 import coding from './array.json' assert { type: 'json' };
 
-window.onload = printCode, lock;
-const lock = screen.orientation.lock('portrait')
+
 const card = document.getElementById("card")
 
 card.addEventListener("click", flipCard);
