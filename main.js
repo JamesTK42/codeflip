@@ -1,6 +1,7 @@
 // import { coding } from '/serahcba/array.js'
 import coding from './array.json' assert { type: 'json' };
 
+window.onload = printCode;
 
 const card = document.getElementById("card")
 
