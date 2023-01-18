@@ -37,6 +37,7 @@ body {
     .front,
     .back {
         padding: 8px;
+        -webkit-transform: rotateX(0deg);
         transform: rotateX(0deg)
     }
 
