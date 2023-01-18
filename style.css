@@ -28,6 +28,7 @@ body {
         width: 85vw;
         border-radius: 1rem;
         background-color: rgb(47, 47, 47);
+        -webkit-transform-style: preserve-3d;
         transform-style: preserve-3d;
         transition: all 1s ease;
     }
@@ -38,10 +39,12 @@ body {
     }
 
     .flipCard {
+        -webkit-transform: rotateY(180deg);
         transform: rotateY(180deg);
     }
 
     .front {
+        -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
         text-align: left;
     }
@@ -61,8 +64,10 @@ body {
 
 
     .back {
+        --webkit-transform: rotateY(180deg);
         transform: rotateY(180deg);
         position: absolute;
+        -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
         display: flex;
         justify-content: center;
