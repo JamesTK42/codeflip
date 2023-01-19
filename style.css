@@ -44,10 +44,10 @@ body {
     .flipCard {
         -webkit-transform: rotateY(180deg);
         transform: rotateY(180deg);
+        background: transparent;
     }
 
     .front {
-        background: transparent;
         -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
         text-align: left;
