@@ -38,7 +38,6 @@ body {
     .back {
         padding: 8px;
         -webkit-transform: rotateX(0deg);
-        background: transparent;
         transform: rotateX(0deg)
     }
 
@@ -48,6 +47,7 @@ body {
     }
 
     .front {
+        background: transparent;
         -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
         text-align: left;
