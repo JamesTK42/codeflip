@@ -38,6 +38,7 @@ body {
     .back {
         padding: 8px;
         -webkit-transform: rotateX(0deg);
+        background: transparent;
         transform: rotateX(0deg)
     }
 
@@ -68,7 +69,6 @@ body {
 
 
     .back {
-        background: transparent;
         -webkit-transform: rotateY(180deg);
         transform: rotateY(180deg);
         position: absolute;
