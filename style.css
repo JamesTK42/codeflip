@@ -79,6 +79,8 @@ body {
         top: 25vh;
         width: 95%;
         align-items: center;
+        background-color: transparent;
+
     }
 
     footer {
