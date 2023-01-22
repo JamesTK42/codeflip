@@ -13,6 +13,14 @@ body {
         text-align: center;
     }
 
+    .noclick {
+        user-select: none;
+        -webkit-touch-callout: none;
+        /* iOS Safari */
+        -webkit-user-select: none;
+        /* Safari */
+    }
+
     html {
         max-height: 100%;
         max-width: 100%;
