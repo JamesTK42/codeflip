@@ -12,8 +12,16 @@
         href="https://drive.google.com/uc?export=view&id=1HAppUWOH_jiGuSlltJVj6qMlANZBSAdo">
 </head>
 
-<body">
-    <h1>ICD-10 Flipcards </h1>
+<script>
+    function src() {
+        alert("Source: \nhttps://icd.who.int/browse10/2019/en")
+    }
+</script>
+
+
+<body>
+
+    <h1 onclick="src()">ICD-10 Flipcards </h1>
 
     <div id="card" class="card">
         <div class="front"><!-- front -->
@@ -23,11 +31,7 @@
         </div>
         <div class="back"><!-- back -->
             <h2 id="code"></h2>
-            <div class="source">
-                <p>Source: <br>
-                    <a href="https://icd.who.int/browse10/2019/en">https://icd.who.int/browse10/2019/en</a>
-                </p>
-            </div>
+
         </div>
 
     </div>
@@ -38,23 +42,17 @@
         <button id="myButton">
             <h2>New Code</h2>
         </button>
+        <!-- <div class="source">
+            <p>Source: <br>
+                <a href="https://icd.who.int/browse10/2019/en">https://icd.who.int/browse10/2019/en</a>
+            </p>
+        </div> -->
     </div>
 
 
-
-
-
-    <footer>
-
-
-    </footer>
-
-
-
-
-    </body>
-    <!-- <script src="main.js" type="module"></script> -->
-    <script src="main2.js"></script>
-    <!-- <script src="array.json"></script> -->
+</body>
+<!-- <script src="main.js" type="module"></script> -->
+<script src="main2.js"></script>
+<!-- <script src="array.json"></script> -->
 
 </html>
